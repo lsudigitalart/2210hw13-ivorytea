@@ -37,7 +37,7 @@ function setup()
   collectables = new Group();
 
   // adds bugs sprites
-  for (var i = 0; i < 4; i++) //4 is the number of obstacles
+  for (var i = 0; i < 10; i++) //4 is the number of obstacles
   {
     bug = createSprite(random(0, width), random(0, height), 5, 5);
     bug.addImage(bugImg);
